@@ -12,4 +12,3 @@ Groupe numéro 6 #kawaii #jojo #labubu #matcha #feminist #performative
 DAB:
 
 
-
