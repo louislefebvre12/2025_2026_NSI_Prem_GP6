@@ -29,8 +29,7 @@ if rep_is_yes (rep):
 
 def propose_depot ():
     message_depot = "Choisissez un montant "
-    montant_depot = input(message_depot)
-    message_depot_verif = f"Etes-vous sur de vouloir déposer cette somme: {montant_depot}€ ? " 
+    montant_depot = input(message_depot) 
     return montant_depot
 
 def run ():
