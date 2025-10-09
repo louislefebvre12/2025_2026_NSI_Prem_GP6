@@ -33,12 +33,9 @@ from data import *
 
 
 
-<<<<<<< Updated upstream
 
 
 
-=======
->>>>>>> Stashed changes
 # reponse_message_depot_verif 
 
 def rep_is_yes (rep):
@@ -47,12 +44,8 @@ def rep_is_yes (rep):
 def rep_is_no (rep):
     return not (rep_is_yes (rep)) 
 
-<<<<<<< Updated upstream
 def save_depot_in_historique ():
     pass
-=======
-
->>>>>>> Stashed changes
 
 def propose_depot ():
     message_depot = "Choisissez un montant "
@@ -60,26 +53,18 @@ def propose_depot ():
     return montant_depot
 
 def add_amount_to_account ():
-<<<<<<< Updated upstream
     montant_depot () 
-=======
-    montant_depot 
->>>>>>> Stashed changes
 
 def fonctionnement_depot ():
     propose_depot ()
     print(message_depot_verif) 
     while rep_is_yes :
         add_amount_to_account
-<<<<<<< Updated upstream
         save_depot_in_historique
-=======
->>>>>>> Stashed changes
         return return_to_accueil
     else :
         rep_is_no
         propose_depot
-<<<<<<< Updated upstream
     
 
 
@@ -90,6 +75,3 @@ def fonctionnement_depot ():
 
 
 fonctionnement_depot ()
-=======
-    
->>>>>>> Stashed changes
