@@ -32,6 +32,11 @@
 
 #depot:
 =======
+
+
+
+# transfert :
+
 # entrer dans le transfert 
 # sélectionner le client à qui envoyer l'argent
 # sélectionner le montant à envoyer
