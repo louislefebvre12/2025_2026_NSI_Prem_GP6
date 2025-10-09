@@ -1,1 +1,11 @@
-message_transfert = "Sélectionnez un client"
+# entrer dans le transfert 
+# sélectionner le client à qui envoyer l'argent
+# sélectionner le montant à envoyer
+# afficher le message de verification de notre action
+# retirer la somme du compte du premier client
+# ajouter la meme somme au deuxieme client
+
+while client_is_in_transfert_page ():
+    show transfert_message
+    ask_client1_select_client2 ()
+    
