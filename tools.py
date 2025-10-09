@@ -33,7 +33,10 @@ from data import *
 
 
 
+import datetime
 
+x = datetime.datetime.now()
+print(x) 
 
 
 # reponse_message_depot_verif 
