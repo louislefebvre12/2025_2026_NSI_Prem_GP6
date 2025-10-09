@@ -18,26 +18,32 @@ def rep_is_yes (rep):
 def rep_is_no (rep):
     return not (rep_is_yes (rep)) 
 
-def add_amount_to_account ():
-    pass
 
-def make_a_depot ():
-    pass
-
-if rep_is_yes (rep):
-    add_amount_to_account ()
 
 def propose_depot ():
     message_depot = "Choisissez un montant "
     montant_depot = input(message_depot) 
     return montant_depot
 
-def run ():
-    rep = input(message_depot_verif) 
-    while rep_is_yes (rep):
-        make_a_depot ()
+def add_amount_to_account ():
+    montant_depot 
+
+def fonctionnement_depot ():
     propose_depot ()
+    print(message_depot_verif) 
+    while rep_is_yes :
+        add_amount_to_account
+        return return_to_accueil
+    else :
+        rep_is_no
+        propose_depot
+    
 
 
 
-run ()
+
+
+
+
+
+fonctionnement_depot ()
