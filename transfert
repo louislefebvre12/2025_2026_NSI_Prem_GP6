@@ -5,6 +5,7 @@
 # afficher le message de verification de notre action
 # retirer la somme du compte du premier client
 # ajouter la meme somme au deuxieme client
+# noter la date du transfert et les détails dans l'historique
 
 def transfert_message ():
     print "Bienvenue dans le transfert"
