@@ -8,6 +8,11 @@
 # retirer la somme du compte du premier client
 # ajouter la meme somme au deuxieme client
 
+def transfert_message ():
+    print "Bienvenue dans le transfert"
+
+
+
 while client_is_in_transfert_page ():
     show transfert_message
     ask_client1_select_client2 ()
