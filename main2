@@ -1,0 +1,25 @@
+
+def check_client_id ():
+    client_id = ask_for_client_id()
+    while is_not_valid (client_id):
+        re_ask_client_id()
+
+def ask_for_client_id () : 
+    client_id = input(message_client_id)
+    return client_id
+
+def re_ask_for_client_id () : 
+    ask_for_client_id()
+
+def page_connexion (): 
+    print("Bienvenue")
+    action = input("Séléctionnez une action : Connexion [1]? - Quitter [2]? ")
+    if action == 1 : 
+        ask_for_client_id()
+    if action == 2 : 
+        show_quitting_menu()
+  
+
+    
+
+page_connexion()
